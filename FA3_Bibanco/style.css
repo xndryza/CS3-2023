@@ -1,4 +1,4 @@
-body{
+ebody{
   background-image: url("https://png.pngtree.com/background/20210716/original/pngtree-pink-cute-baby-clouds-stars-background-picture-image_1342442.jpg");
   background-repeat: no-repeat;
 	background-position: center;
@@ -24,6 +24,9 @@ p{
   
 }
 span{
-  font-weight: bold
-  font_
+  font-weight: bold;
+  font-style: italic;
+  font-color: rgb(128,0,128);
+  margin-left: 2px;
+  margin-right:5px;
 }
