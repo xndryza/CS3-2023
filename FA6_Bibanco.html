@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Formative Assessment 6</title>
+	</head>
+	<style>
+		body{
+			background-color: #BDB5D5;
+		}
+		
+		#first:link{
+			font-family: georgia;
+			text-decoration: none;
+			color: black;
+			background-color: #FFC0CB;
+		}
+		
+		#second:link{
+			color: black;
+			background-color: magenta;
+		}
+		
+		#first:hover{
+			text-decoration: none;
+			color: pink;
+			background-color: #800080;
+		}
+		
+		#second:hover{
+			color: black;
+			background-color: #FFFF00;
+		}
+		
+		#first:active{
+			text-decoration: none;
+			color: black;
+			background-color: #C154C1;
+		}
+		
+		#second:active{
+			color: violet;
+			background-color: #FF0000;
+		}
+		
+		#first:visited;
+			background-color: white;
+			color: white;
+		}
+		
+		#second:visited;
+			background-color: white;
+		
+		div{
+			width: 100px;
+			height: 100px;
+			border: 2px solid black;
+			padding: 2px;
+			margin: 10px;
+			text-align: center;
+		}
+			
+		#div1{
+			text-align: center;
+			width: 100px;
+			height: 100px;
+			padding: 2px;
+			margin: 10px;
+			border: 2px solid black;
+		}
+		
+		#div2{
+			text-align: center;
+			width: 100px;
+			height: 100px;
+			padding: 2px;
+			margin: 10px;
+			border: 2px solid black;
+		}
+		
+		#div1:target{
+			background-color: #FFC0CB;
+			color: white;
+		}
+		
+		#div2:target{
+			background-color: #DE5D83;
+			color: white;
+			border: 10px dotted green;
+			
+	</style>
+	
+	<body>
+		<a id ="first" href = "#div1">First Link</a>
+		<a id ="second" href = "#div2">Second Link</a>
+		<div id="div1"> Div 1 here </div> <br>
+		<div id="div2"> Div 2 </div> <br>
+	</body>
